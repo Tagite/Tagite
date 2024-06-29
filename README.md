@@ -1,16 +1,22 @@
-## Hi there 👋
+```python
+class Me:
+    pass
 
-<!--
-**Tagite/Tagite** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class About(Me):
+    def get_current_workplace(self):
+        return {
+            'workplace': {
+                'company': 'SW Maestro',
+                'position': 'Team_leader & App'
+            }
+        }
 
-Here are some ideas to get you started:
+    def get_daily_knowledge(self):
+        return [
+            'Flutter',
+            'Spring',
+        ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def get_future_goal(self):
+        return 'Be a developer who dominates technology, not one dominated by it.'
+```
