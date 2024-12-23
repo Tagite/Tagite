@@ -6,15 +6,15 @@ class About(Me):
     def get_current_workplace(self):
         return {
             'workplace': {
-                'company': 'SW Maestro',
-                'position': 'Team_leader & App'
+                'company': 'home',
+                'position': 'Backend'
             }
         }
 
     def get_daily_knowledge(self):
         return [
-            'Flutter',
-            'Spring',
+            'NestJS',
+            'FastAPI',
         ]
 
     def get_future_goal(self):
